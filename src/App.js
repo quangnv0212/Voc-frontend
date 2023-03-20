@@ -48,6 +48,14 @@ function App() {
               </>
             }
           ></Route>
+          <Route
+            path="*"
+            element={
+              <>
+                <div>Coming Soon</div>
+              </>
+            }
+          ></Route>
           <Route path="/cart" element={<CartPage></CartPage>}></Route>
           <Route path="/albums" element={<AlbumPage></AlbumPage>}></Route>
           <Route
