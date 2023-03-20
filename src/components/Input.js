@@ -23,6 +23,7 @@ const Input = (props) => {
   return (
     <div className="relative">
       <input
+        style={{ color: "black" }}
         id={name}
         type={type}
         className={classNames(

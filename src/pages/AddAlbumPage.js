@@ -29,7 +29,7 @@ const AddAlbumPage = () => {
     console.log(album);
   }, [album]);
   return (
-    <div className="m-32">
+    <div className="m-32 ">
       <form
         encType="multipart/form-data"
         onSubmit={handleSubmit(handleAddNewAlbum)}
